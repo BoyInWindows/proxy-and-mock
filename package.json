@@ -4,7 +4,7 @@
   "description": "Aid Development",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,11 +19,22 @@
   },
   "homepage": "https://github.com/BoyInWindows/proxy-and-mock#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.8.3",
     "@koa/router": "^8.0.5",
+    "faker": "^4.1.0",
     "http-proxy": "^1.18.0",
-    "koa": "^2.11.0"
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^2.5.0",
+    "koa2-cors": "^2.0.6",
+    "mockjs": "^1.1.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/register": "^7.8.6",
     "eslint": "^6.8.0",
     "nodemon": "^2.0.2"
   }

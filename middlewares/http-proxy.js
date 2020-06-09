@@ -3,7 +3,9 @@
 module.exports = function(options) {
 
   if (typeof options == 'string') {
-    options = { target: options };
+    options = {
+      target: options
+    };
   }
 
   const proxyServer = require('http-proxy').createProxyServer(options);
