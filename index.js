@@ -1,9 +1,13 @@
 // index.js
 
-// require("@babel/register");
-import "@babel/register";
+// npm install -g nodemon
+// npm install babel-cli -g
 
-import './app.js';
+// require("@babel/register");
+// import "@babel/register";
+
+// import './app.js';
+console.log('yes')
 
 // function Name(target, name, descriptor) {
 //   target.prototype.name = 'hello world'

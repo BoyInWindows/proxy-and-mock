@@ -7,7 +7,7 @@ app.use(cors());
 
 // generators will be removed in v3
 // body解析
-const bodyParser = require('koa-bodyparser');
+// const bodyParser = require('koa-bodyparser');
 // app.use(bodyParser());
 
 // logger
