@@ -14,7 +14,7 @@ export default function(options) {
     // http代理
     await new Promise (function (resolve, reject) {
       ctx.res.on('finish', function () {
-        console.log('proxy finish')
+        console.log('proxy finish');
         resolve()
       })
       proxyServer.web(ctx.req, ctx.res)

@@ -30,6 +30,7 @@
     "koa": "^2.13.0"
   },
   "devDependencies": {
+    "@types/node": "^14.11.2",
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4",
     "tslint": "^6.1.2",

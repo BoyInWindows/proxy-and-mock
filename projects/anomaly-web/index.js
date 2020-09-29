@@ -11,7 +11,7 @@ function loadRouter(path) {
 loadRouter('./controller/getUserInfo.js');
 
 
-const target_site = "http://10.161.55.11:18080"; // 联通测试
+const target_site = "http://10.161.11.241:19022/"; // 联通容器测试
 // const target_site = "http://192.168.10.202:8088"; // 
 // const target_site = "http://192.168.115.13:8080"; // 
 

@@ -1,13 +1,14 @@
 import * as Koa from 'koa'
 import * as cors from '@koa/cors'
 import proxy from './proxy'
+import * as fs from 'fs'
 
 import api from './api'
 
 export default class Server {
   private server: Koa
 
-  constructor (port: number) {
+  constructor (port: number, target: string) {
     this.server = new Koa()
     this.server
       // 允许跨域
@@ -34,7 +35,12 @@ export default class Server {
       .use(api.allowedMethods())
       // http代理
       .use(proxy({
-        target: "http://10.161.55.11:18080" // 联通测试
+        ssl: {
+          key: fs.readFileSync('./src/server.key', 'utf8'),
+          cert: fs.readFileSync('./src/server.crt', 'utf8')
+        },
+        secure: false,
+        target
         , ws: true
         , changeOrigin: true
         , followRedirects: true

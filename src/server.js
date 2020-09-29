@@ -39,9 +39,10 @@ exports.__esModule = true;
 var Koa = require("koa");
 var cors = require("@koa/cors");
 var proxy_1 = require("./proxy");
+var fs = require("fs");
 var api_1 = require("./api");
 var Server = /** @class */ (function () {
-    function Server(port) {
+    function Server(port, target) {
         var _this = this;
         this.server = new Koa();
         this.server
@@ -78,8 +79,12 @@ var Server = /** @class */ (function () {
             .use(api_1["default"].allowedMethods())
             // http代理
             .use(proxy_1["default"]({
-            target: "http://10.161.55.11:18080" // 联通测试
-            ,
+            ssl: {
+                key: fs.readFileSync('./src/server.key', 'utf8'),
+                cert: fs.readFileSync('./src/server.crt', 'utf8')
+            },
+            secure: false,
+            target: target,
             ws: true,
             changeOrigin: true,
             followRedirects: true
