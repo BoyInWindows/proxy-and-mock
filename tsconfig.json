@@ -1,7 +1,12 @@
 {
-  "compilerOptions": {
-    "lib": [ "es2015" ],
-    "target": "ES5",
-    "experimentalDecorators": true
-  }
+	"compilerOptions": {
+		"outDir": "./dist",
+		"lib": [ "es2015" ],
+		"target": "ES5",
+		"experimentalDecorators": true
+	},
+	// 指定一个匹配列表（属于自动指定该路径下的所有ts相关文件）
+	"include": [
+		"src/**/*"
+	]
 }

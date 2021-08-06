@@ -1,0 +1,23 @@
+Bag Attributes
+    friendlyName: aiops-certification
+    localKeyID: 54 69 6D 65 20 31 36 30 30 34 30 36 35 32 32 33 30 34 
+subject=C = 0001, ST = beijing, L = beijing, O = tianyan, OU = chinaunicom, CN = Jiahao cao
+
+issuer=C = 0001, ST = beijing, L = beijing, O = tianyan, OU = chinaunicom, CN = Jiahao cao
+
+-----BEGIN CERTIFICATE-----
+MIICfDCCAeWgAwIBAgIEIsqTXTANBgkqhkiG9w0BAQsFADBwMQ0wCwYDVQQGEwQw
+MDAxMRAwDgYDVQQIEwdiZWlqaW5nMRAwDgYDVQQHEwdiZWlqaW5nMRAwDgYDVQQK
+Ewd0aWFueWFuMRQwEgYDVQQLEwtjaGluYXVuaWNvbTETMBEGA1UEAxMKSmlhaGFv
+IGNhbzAgFw0yMDA5MTgwNDAyNDBaGA8yMTIwMDgyNTA0MDI0MFowcDENMAsGA1UE
+BhMEMDAwMTEQMA4GA1UECBMHYmVpamluZzEQMA4GA1UEBxMHYmVpamluZzEQMA4G
+A1UEChMHdGlhbnlhbjEUMBIGA1UECxMLY2hpbmF1bmljb20xEzARBgNVBAMTCkpp
+YWhhbyBjYW8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKobJeVWxVnPdKbw
+/0ReMB9LBhsrHcgm1rf9CM9t/d/LbM/s2A7xhzD6U0DEGYJWwJmRoCk0J3YLHszI
+7lIc8QaFpRMRr8BZO7fUs4qlj1cH6TKYW5JfHMDWlunPw24HBsQ3RTrcKc5gn1h8
+fTpQW07YrPTpVQDv7eCGxt8uTSudAgMBAAGjITAfMB0GA1UdDgQWBBSpsJwvOcTZ
+kuPCxBqtkc66wVAyVTANBgkqhkiG9w0BAQsFAAOBgQBcAfC4hzkygGVJKEg9fNIw
+ytDDU3jPCDf8kz+o+tDJuhmwiT8fP/mbUjtl93kRexd0InCUYZ4x1lbN0/5EpJvX
+M1AWBbpgf50LfK2Nr/rSnrup2Ad9ifkmMkc4oX5yNfDpyFsbIv6rwoeg8CsLSmpc
+et7kI1oSSw4XwD/QZmYPYg==
+-----END CERTIFICATE-----

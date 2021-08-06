@@ -10,6 +10,7 @@
     "watch": "concurrently -k -p \"[{name}]\" \"npm:watch-ts\" \"npm:watch-node\"",
     "watch-ts": "tsc -w src/app.ts",
     "watch-node": "nodemon src/app.js",
+		"build": "tsc --build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
